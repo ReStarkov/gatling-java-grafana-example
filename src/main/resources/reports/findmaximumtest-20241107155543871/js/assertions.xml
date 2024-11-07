@@ -1,0 +1,5 @@
+<testsuite name="webtours.FindMaximumTest" tests="1" errors="0" failures="1" time="0">
+  <testcase name="Global: percentage of failed events is less than 2.0" status="false" time="0">
+  <failure type="Global: percentage of failed events is less than 2.0">Actual value: 52.733900364520046</failure>
+</testcase>
+</testsuite>
