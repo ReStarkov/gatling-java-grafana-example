@@ -37,7 +37,7 @@
     <dependency>
       <groupId>io.gatling</groupId>
       <artifactId>gatling-http-java</artifactId>
-      <version>3.11.5</version>
+      <version>3.12.0</version>
       <scope>test</scope>
     </dependency>
     <dependency>
