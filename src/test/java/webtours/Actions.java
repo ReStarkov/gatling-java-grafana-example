@@ -62,7 +62,7 @@ public class Actions {
                     css("select[name='depart'] option:nth-child(" + ARRIVAL_CITY_INDEX + ")").saveAs("ArrivalCity")
             );
 
-    public static final HttpRequestActionBuilder createReservation = http("create reservation")
+    public static HttpRequestActionBuilder createReservation = http("create reservation")
             .post("/reservations.pl")
             .formParam("depart", "#{DepartureCity}")
             .formParam("departDate", "11/03/2024")
@@ -82,7 +82,7 @@ public class Actions {
                     css("input[name='outboundFlight']", "value").find(FLIGHT_INDEX).saveAs("flightChose")
             );
 
-    public static final HttpRequestActionBuilder setFlight = http("choose flight")
+    public static HttpRequestActionBuilder setFlight = http("choose flight")
             .post("/reservations.pl")
             .formParam("outboundFlight", "#{flightChose}")
             .formParam("numPassengers", "1")
@@ -93,7 +93,7 @@ public class Actions {
             .check(status().is(200))
             .check(regex("Flight Reservation").exists());
 
-    public static final HttpRequestActionBuilder setPayments = http("choose payments details")
+    public static  HttpRequestActionBuilder setPayments = http("choose payments details")
             .post("/reservations.pl")
             .formParam("firstName", USERNAME)
             .formParam("lastName", "Snow")
