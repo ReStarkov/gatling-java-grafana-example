@@ -50,7 +50,7 @@ public class FindMaximumTest extends Simulation {
 * Рост ошибок при нагрузке более 330 пользователей работающих одновременно.
   ![ошибки](src/main/resources/img/Screenshot_1.jpg)
 * Отчет HTML:
-  [Посмотреть отчет](src/main/resources/reports/findmaximumtest-20241107155543871/index.html)
+  [Посмотреть отчет](src/main/resources/reports)
 
 ### Вывод:
 * Значение ~ 300-320 пользователей является максимальным при котором система может функционировать 
@@ -94,7 +94,7 @@ public class StepLoadTest extends Simulation {
 
 
 * Отчет HTML:
-  [Посмотреть отчет](src/main/resources/reports/steploadtest-20241107163124245/index.html)
+  [Посмотреть отчет](src/main/resources/reports)
 
 ### Итерация №3:
 
@@ -130,4 +130,4 @@ public class ReliabilityTest extends Simulation {
 ![Результаты тестирования](src/main/resources/img/Screenshot_8.jpg)
 
 * Отчет HTML:
-  [Посмотреть отчет](src/main/resources/reports/reliabilitytest-20241107180912333/index.html)
+  [Посмотреть отчет](src/main/resources/reports)
