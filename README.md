@@ -16,6 +16,10 @@ win:
 mvn gatling:test 
 ```
 
+```
+mvn gatling:test '-Dgatling.simulationClass=webtours.StepLoadTest'    
+```
+
 unix:
 ```
 $ ./mvnw gatling:test 
